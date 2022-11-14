@@ -3,12 +3,12 @@ package dev.melnik.codility;
 public class N26 {
     public static void main(String[] args) {
         Problems problem = new Problems();
-//        System.out.println(problem.solution(new int[]{1, 2, 3}, 3));
-//        System.out.println(problem.solution(new int[]{1, 1, 3}, 2));
-//        System.out.println(problem.solution(new int[]{3, 3}, 3));
+        System.out.println(problem.solution1(new int[]{1, 2, 3}, 3));
+        System.out.println(problem.solution1(new int[]{1, 1, 3}, 2));
+        System.out.println(problem.solution1(new int[]{3, 3}, 3));
 
-//        System.out.println(problem.solution2(new int[]{3, 2, 1, 1, 2, 3, 1}));
-//        System.out.println(problem.solution2(new int[]{4, 1, 4, 1}));
+        System.out.println(problem.solution2(new int[]{3, 2, 1, 1, 2, 3, 1}));
+        System.out.println(problem.solution2(new int[]{4, 1, 4, 1}));
 
         System.out.println(problem.solution3(new int[]{2, 2, 3, 4, 3, 3, 2, 2, 1, 1, 2, 5}));
         System.out.println(problem.solution3(new int[]{-3, -3}));
