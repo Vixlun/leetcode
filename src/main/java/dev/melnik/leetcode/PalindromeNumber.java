@@ -7,7 +7,6 @@ public class PalindromeNumber {
     For example, 121 is a palindrome while 123 is not.
      */
 
-
     public boolean isPalindrome(int x) {
         if (x < 0) return false;
         if (x < 10) return true;
